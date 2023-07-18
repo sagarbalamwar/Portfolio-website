@@ -22,7 +22,7 @@ nav {
   height: 80px;
   background-color: rgb(17, 17, 62);
 }
-nav .left img{
+nav .left img {
   width: 35%;
   cursor: pointer;
 }
@@ -371,6 +371,11 @@ form textarea {
   }
   #projects .container .work-list {
     flex-basis: 100%;
+  }
+  nav .left img {
+    position: absolute;
+    right: 250px;
+    width: 16%;
   }
 }
 
